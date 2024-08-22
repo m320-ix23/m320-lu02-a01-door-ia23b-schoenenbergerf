@@ -117,9 +117,11 @@ class DoorLock:
     def __init__(self):
         print("ein Schloss erzeugt")
 
+    @property
     def lock(self):
         return True
 
+    @property
     def unlock(self):
         return False
 
